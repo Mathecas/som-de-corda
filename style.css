@@ -1,14 +1,16 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  margin: 0;
 }
 
 .botao-tocar {
@@ -24,4 +26,5 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
+
 
