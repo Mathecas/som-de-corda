@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.botao-tocar {
+    background-color: rgb(74, 165, 13);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.botao-parar {
+    background-color: rgb(161, 13, 13);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
