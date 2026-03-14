@@ -9,13 +9,33 @@
 </head>
 
 <body>
-    <h1>Som de corda</h1>
-    <p>Bem-vindo ao Som de Corda.</p>
-    <p> Este site é dedicado ao universo do violão, experimente</p>
-    <button class="botao-tocar">Som de corda</button>
-    <button class="botao-parar">Parar</button>
-    <audio src="som_de_corda.mp3"></audio>
+    <div class="container">
 
+        <h1>Som de corda</h1>
+        <p>Bem-vindo ao Som de Corda.</p>
+        <p> Este site é dedicado ao universo do violão, experimente</p>
+        <div class="container-botoes">
+            <button id="botao-tocar" class="botao-tocar">Som de corda</button>
+            <button id="botao-parar" class="botao-parar">Parar</button>
+        </div>
+        <audio id="audio-violao" src="main_guitar_solo.mp3"></audio>
+
+        <script>
+            const botaoTocar = document.getElementById("botao-tocar");
+            const botaoParar = document.getElementById("botao-parar");
+            const audioViolao = document.getElementById("audio-violao");
+
+            botaoTocar.addEventListener("click", () => {
+                audioViolao.play();
+            });
+
+            botaoParar.addEventListener("click", () => {
+                audioViolao.pause();
+            });
+
+        </script>
+
+    </div>
 </body>
 
 </html>
