@@ -1,16 +1,16 @@
 body {
-  background-color: black;
-  color: white;
-  font-family: Arial, sans-serif;
-  text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  min-height: 100vh;
-  margin: 0;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .botao-tocar {
@@ -27,4 +27,15 @@ body {
     text-align: center;
 }
 
+.container {
+    max-width: 900px;
+    margin: auto;
+}
 
+.container-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
