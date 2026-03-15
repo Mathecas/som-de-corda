@@ -27,9 +27,21 @@ body {
     text-align: center;
 }
 
-.container {
+.banner-principal {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #111, #333);
+    margin-top: 80px;
+    /* espaço do header absoluto */
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.banner-conteudo {
     max-width: 900px;
-    margin: auto;
 }
 
 .container-botoes {
@@ -38,4 +50,45 @@ body {
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
+}
+
+.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+}
+
+.logo-space {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-btn:hover {
+    background-color: white;
+    color: black;
 }
