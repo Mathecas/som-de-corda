@@ -9,17 +9,29 @@
 </head>
 
 <body>
-    <div class="container">
-
-        <h1>Som de corda</h1>
-        <p>Bem-vindo ao Som de Corda.</p>
-        <p> Este site é dedicado ao universo do violão, experimente</p>
-        <div class="container-botoes">
-            <button id="botao-tocar" class="botao-tocar">Som de corda</button>
-            <button id="botao-parar" class="botao-parar">Parar</button>
+    <header class="main-header">
+        <div class="logo-space">Logo Aqui</div>
+        <div class="header-buttons">
+            <button class="nav-btn">História Violão</button>
+            <button class="nav-btn">Aprender a Tocar</button>
+            <button class="nav-btn">Meu carrinho</button>
         </div>
-        <audio id="audio-violao" src="main_guitar_solo.mp3"></audio>
+    </header>
 
+    <section class="banner-principal">
+        <div class="banner-conteudo">
+            <h1>Som de corda</h1>
+            <p>Bem-vindo ao Som de Corda.</p>
+            <p> Este site é dedicado ao universo do violão, experimente</p>
+
+            <div class="container-botoes">
+                <button id="botao-tocar" class="botao-tocar">Som de corda</button>
+                <button id="botao-parar" class="botao-parar">Parar</button>
+            </div>
+            <audio id="audio-violao" src="main_guitar_solo.mp3"></audio>
+        </div>
+    </section>
+    
         <script>
             const botaoTocar = document.getElementById("botao-tocar");
             const botaoParar = document.getElementById("botao-parar");
@@ -35,7 +47,6 @@
 
         </script>
 
-    </div>
 </body>
 
 </html>
